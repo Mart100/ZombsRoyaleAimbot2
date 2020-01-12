@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Socket.io -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script> var socket = io(); </script>
+
+    <!-- Own scripts -->
+    <script src="main.js"></script>
+    <script src="menu.js"></script>
+    <script src="draw.js"></script>
+    <script src="socket.js"></script>
+  </head>
+  <body id="body">
+    <div id="settings">
+      <div class="setting" id="start">Start aimbot</div>
+      <div class="setting" id="autoShoot">AutoShoot</div>
+      <div class="setting" id="autoAim">AutoAim</div>
+      <div class="setting" id="advanced">advanced
+        <div class="dropdown">
+          <button id="strTSrv">strTSrv</button>
+          <button id="stpTSrv">stpTSrv</button>
+          <button id="testing">testing</button>
+        </div>
+      </div>
+    </div>
+    <iframe id="iframe" src="https://zombsroyale.io/" frameborder="0"></iframe>
+    <canvas id="canvas"></canvas>
+  </body>
+</html>

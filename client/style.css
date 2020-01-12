@@ -1,0 +1,102 @@
+body {
+  margin: 0px;
+  background-color: #17181c;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+
+iframe {
+  left: 0px;
+  top: 10px;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+canvas {
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  pointer-events: none;
+}
+#settings {
+  height: 30px;
+  word-spacing: -4px;
+  user-select: none;
+  -moz-user-select: none;
+
+
+}
+
+#settings .setting {
+  padding: 5px 0;
+  margin: 0px;
+  cursor: pointer;
+  width: 100px;
+  border: none;
+  font-size: 16px;
+  padding: 7.5;
+  background-color: black;
+  color: #165b1e;
+  text-align: center;
+  vertical-align: middle;
+  transition: .6s;
+  top: 0px;
+  display: inline-block;
+  opacity: 0;
+  text-shadow: none;
+  font-weight: 600;
+  word-spacing: 4px;
+
+}
+#settings .setting:hover {
+  background-color: #165b1e;
+  color: black;
+}
+
+
+#settings .setting.selected {
+  background-color: #165b1e !important;
+  color: black !important;
+}
+
+#settings .setting.selected:hover {
+  background-color: black !important;
+  color: #165b1e !important;
+}
+
+/*=======Start button + loadbar=======*/
+#settings #start {
+  position: absolute;
+  left: 50%;
+  width: 300px;
+  transform: translateX(-50%);
+  opacity: 1;
+  display: block;
+  top: 0px;
+}
+
+#loadBar {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 33px;
+  width: 0px;
+  background-color: #165b1e;
+}
+
+/*=======DROPDOWN=======*/
+.dropdown {
+  height: auto;
+  display: none;
+  position: absolute;
+  background-color: black;
+}
+.dropdown div {
+  display: none;
+
+}
+#advanced {
+  float: right;
+}
