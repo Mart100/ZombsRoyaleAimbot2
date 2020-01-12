@@ -8,4 +8,5 @@
 
 ### CONTROLS:
   F8: stops the aimbot immediatly
+  <br>
   Shift: Automatically goes into auto-aim and shoot when holding
