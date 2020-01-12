@@ -1,3 +1,10 @@
+The aimbot makes use of taking screenshots of the screen and detecting specific colors.
+This aimbot is really bad and won't actually help you be better.
+It's just a fun project
+
+
+
+
 ### HOW TO SETUP:
 1. Download this 
 2. run "downloadModulex.bat"
